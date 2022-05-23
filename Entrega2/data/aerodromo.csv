@@ -1,0 +1,40 @@
+aerodromo_id,nombre,codigo_ICAO,codigo_IATA,latitud,longitud,nombre_ciudad
+41,aeropuerto internacional de icheon,pvow,lmf,159.1,71.9,seul
+21,aeropuerto internacional toronto pearson,iwjc,hka,40.2,41.8,toronto
+55,aeropuerto de roma-fiumicino,tbjm,sff,157.2,26.7,roma
+25,aeropuerto internacional kingsford smith,kmpw,hox,22.5,59.4,sidney
+23,aeropuerto internacional de melbourne,jkra,hnb,19.5,53.9,melbourne
+69,aeropuerto internacional ataturk,xoey,vnn,104.0,154.4,estambul
+43,aeropuerto internacional de carrasco,pyim,nvi,66.4,148.0,montevideo
+75,aeropuerto big apple,yhep,ygy,43.0,118.1,nueva york
+1,aeropuerto internacional arturo merino benítez,blfs,awr,75.4,106.5,santiago
+15,aeropuerto internacional de san francisco,gprk,duu,45.1,142.8,san francisco
+77,aeropuerto internacional de australia,zgua,zlq,27.3,111.1,sidney
+29,aeropuerto de adolfo suárez madrid-barajas,mboo,hsj,54.2,174.5,madrid
+27,aeropuerto internacional de el cairo,kzzs,hrv,103.8,107.6,el cairo
+19,aeropuerto de parís-charles de gaulle,hgzt,hcm,147.2,49.6,paris
+7,aeropuerto internacional de galeão,eegz,bxs,6.8,90.3,rio de janeiro
+57,aeropuerto de milán-malpensa,tcgf,spt,70.1,56.3,milan
+71,aeropuerto internacional de nueva york,xsam,who,89.8,171.2,nueva york
+67,aeropuerto de ibiza,xewm,vbh,156.8,54.8,ibiza
+13,aeropuerto internacional de miami,gaww,cph,96.1,8.4,miami
+39,aeropuerto internacional de haneda,pfxe,lcx,153.8,40.2,tokio
+31,aeropuerto josep tarradellas barcelona-el prat,mvpw,jiz,52.7,165.2,barcelona
+17,aeropuerto de la ciudad de londres,gspa,epm,152.5,76.9,londres
+49,aeropuerto internacional el alto,sgwn,qjm,173.5,5.6,la paz
+33,aeropuerto internacional de pekín,nbmq,jtm,133.5,57.9,beijing
+9,aeropuerto internacional o'hare,fcjt,byb,166.5,51.0,chicago
+73,aeropuerto internacional de copiapo,xszw,wkt,92.2,129.6,santiago
+35,aeropuerto internacional pudong,nztg,kfe,153.9,115.7,shangai
+45,aeropuerto de ámsterdam-schiphol,rcqr,ohi,37.1,60.9,amsterdam
+63,aeropuerto internacional indira gandhi,urlq,uau,149.9,125.7,nueva delhi
+47,aeropuerto internacional de cancún,sdsc,pks,103.3,99.4,cancun
+5,aeropuerto internacional de são paulo-guarulhos,dzfp,bkt,17.9,177.8,sao pablo
+51,aeropuerto internacional de la ciudad del cabo,simj,rfp,47.4,157.1,ciudad del cabo
+53,aeropuerto internacional jorge chávez,tazy,rrk,62.2,148.1,lima
+65,aeropuerto internacional de maiquetía simón bolívar,vbit,uyl,144.0,165.7,caracas
+3,aeropuerto internacional de ezeiza,bvwk,bah,14.7,51.2,buenos aires
+59,aeropuerto de hong kong,tqqz,tef,142.6,4.1,hong kong
+37,aeropuerto internacional ben gurión,nztp,kzn,159.3,167.2,tel aviv
+61,aeropuerto internacional eleftherios venizelos,uqqx,tqv,72.4,102.6,atenas
+11,aeropuerto internacional john f. kennedy,folh,ckr,18.1,123.4,nueva york
