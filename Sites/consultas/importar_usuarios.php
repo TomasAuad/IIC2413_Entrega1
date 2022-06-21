@@ -57,7 +57,7 @@
       VALUES ('$aerolinea[0]', '$aerolinea[1]', '$aerolinea[2]') ON CONFLICT (username) DO NOTHING;";
     $result4 = $db -> prepare($insertar_dato);
     $result4 -> execute();
-    echo "<tr> <td>$aerolinea[0]</td> <td>$aerolinea[1]</td> <td>$aerolinea[2]</td></tr>";
+    
   $insertar_dato = "INSERT INTO Usuarios (username, contrasena, tipo) 
   VALUES ('DGAC', 'admin', 'DGAC') ON CONFLICT (username) DO NOTHING;";
   $result5 = $db -> prepare($insertar_dato);
@@ -66,4 +66,5 @@
   ?>
 	</table>
 
-<?php include('../templates/footer.html'); ?>
+<?php echo"importacion exitosa"
+include('../templates/footer.html'); ?>
