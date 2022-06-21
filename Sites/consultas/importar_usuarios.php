@@ -66,5 +66,5 @@
   ?>
 	</table>
 
-<?php echo"importacion exitosa"
+<?php echo"importacion exitosa";
 include('../templates/footer.html'); ?>
