@@ -31,13 +31,7 @@
    
   ?>
 
-	<table>
-    <tr>
-      <th>Codigo Aerolinea</th>
-      <th>Contraseña</th>
-      <th>Tipo Usuario</th>
-      
-    </tr>
+	
   <?php
   
 	foreach ($lista_pasajeros as $dato) {
