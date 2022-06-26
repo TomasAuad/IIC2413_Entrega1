@@ -5,6 +5,7 @@
         echo "<br>";
         echo $_SESSION['tipo'];
     }
+
 ?>
 
 <?php
@@ -27,6 +28,7 @@
         <form align="center" action="views/logout.php" method="post">
             <input type="submit" value="Cerrar sesión">
         </form>
+        
         
     <?php } ?>
     

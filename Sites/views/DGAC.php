@@ -19,6 +19,9 @@
         <form align="center" action="../views/logout.php" method="post">
             <input type="submit" value="Cerrar sesión">
         </form>
+        <form align="center" action="../consultas/cambiar_clave.php" method="post">
+            <input type="submit" value="Cambiar Clave">
+        </form>
         <h1> Todo bien</h1>
     <?php } ?>
     

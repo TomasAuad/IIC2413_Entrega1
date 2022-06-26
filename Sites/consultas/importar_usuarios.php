@@ -6,11 +6,12 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conection.php");
   require_once "../consultas/contrasenas.php";
+ 
 	
 
  	
   $crear_tabla_usuarios = "CREATE TABLE IF NOT EXISTS Usuarios (
-    id serial PRIMARY KEY,
+    id serial  PRIMARY KEY,
     username varchar UNIQUE NOT NULL,
     contrasena varchar NOT NULL,
     tipo varchar NOT NULL
@@ -38,12 +39,19 @@
       $dato[2] = crear_contrasena_usuario($dato[0], $dato[1]);
       $dato[3] = 'Pasajero';
       $insertar_dato = "INSERT INTO Usuarios (username, contrasena, tipo) 
-        VALUES ('$dato[1]', '$dato[2]', '$dato[3]') ON CONFLICT (username) DO NOTHING;";
-      $result3 = $db -> prepare($insertar_dato);
-      $result3 -> execute();
+        VALUES ('$dato[1]', '$dato[2]', '$dato[3]') ON CONFLICT (username) DO NOTHING RETURNING id;";
+      $result3 = $db->prepare($insertar_dato);
+      
+      $result3 = $result3->execute();
+   
+      
+      
+      
+      
   		
 
 	}
+  
   foreach ($lista_aerolineas as $aerolinea) {
     $aerolinea[1] = crear_contrasena_aerolinea();
     $aerolinea[2] = 'Aerolinea';
@@ -51,14 +59,27 @@
       VALUES ('$aerolinea[0]', '$aerolinea[1]', '$aerolinea[2]') ON CONFLICT (username) DO NOTHING;";
     $result4 = $db -> prepare($insertar_dato);
     $result4 -> execute();
+
+    
     
   $insertar_dato = "INSERT INTO Usuarios (username, contrasena, tipo) 
   VALUES ('DGAC', 'admin', 'DGAC') ON CONFLICT (username) DO NOTHING;";
   $result5 = $db -> prepare($insertar_dato);
   $result5 -> execute();
+  
+
 }
   ?>
 	</table>
 
 <?php echo"importacion exitosa";
-include('../templates/footer.html'); ?>
+      echo"<br>";
+
+      ?>
+
+<form align="center" action="datos_usuarios.php" method="post">
+<input type="submit" value="Ver Datos Usuarios">
+</form>
+
+<?php include('../templates/footer.html'); ?>
+
